@@ -5,27 +5,27 @@ import { useEffect, useRef, useState } from "react";
 const features = [
   {
     number: "01",
-    title: "Autonomous Execution",
-    description: "Deploy AI agents that work independently. They analyze, decide, and execute complex multi-step tasks without human intervention.",
-    stats: { value: "99.7%", label: "task completion" },
+    title: "B2B Lead Generation",
+    description: "Identify and qualify high-intent prospects through rigorous MQL and SQL programs that uncover opportunities beyond ordinary data sources.",
+    stats: { value: "MQL → SQL", label: "qualified demand" },
   },
   {
     number: "02",
-    title: "Distributed Computing",
-    description: "Offload compute-heavy tasks to our global network. Your agents run on optimized infrastructure across 50+ regions worldwide.",
-    stats: { value: "50+", label: "global regions" },
+    title: "Demand Generation",
+    description: "Engage your audience with programmatic advertising, whitepapers, and email campaigns built to create sustained brand interest.",
+    stats: { value: "360°", label: "campaign coverage" },
   },
   {
     number: "03",
-    title: "Multi-Agent Orchestration",
-    description: "Coordinate teams of specialized agents. They communicate, delegate, and collaborate to solve complex problems together.",
-    stats: { value: "1000x", label: "parallel execution" },
+    title: "Account-Based Marketing",
+    description: "Focus on high-value accounts with precise targeting, intent data, and customized campaigns that move the right prospects forward.",
+    stats: { value: "1:1", label: "targeted growth" },
   },
   {
     number: "04",
-    title: "Secure Sandboxing",
-    description: "Each agent runs in isolated environments. Full audit trails, encrypted execution, and zero data leakage between tasks.",
-    stats: { value: "0", label: "data breaches" },
+    title: "Appointment Setting",
+    description: "Streamline scheduling and lead follow-up so your team can focus on conversations, relationships, and closing opportunities.",
+    stats: { value: "24/7", label: "sales momentum" },
   },
 ];
 
@@ -158,23 +158,23 @@ export function FeaturesSection() {
             <div className="lg:col-span-7">
               <span className="inline-flex items-center gap-3 text-sm font-mono text-muted-foreground mb-6">
                 <span className="w-12 h-px bg-foreground/30" />
-                Capabilities
+                Services
               </span>
               <h2
                 className={`text-6xl md:text-7xl lg:text-[128px] font-display tracking-tight leading-[0.9] transition-all duration-1000 ${
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                 }`}
               >
-                Intelligent
+                Targeted
                 <br />
-                <span className="text-muted-foreground">workers.</span>
+                <span className="text-muted-foreground">growth.</span>
               </h2>
             </div>
             <div className="lg:col-span-5 lg:pb-4">
               <p className={`text-xl text-muted-foreground leading-relaxed transition-all duration-1000 delay-200 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}>
-                Deploy autonomous AI agents that execute complex tasks across distributed infrastructure. No supervision required.
+                Proficient in providing targeted sales, marketing, and high-intent leads of exceptional quality.
               </p>
             </div>
           </div>

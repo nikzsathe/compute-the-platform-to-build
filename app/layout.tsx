@@ -21,8 +21,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'COMPUTE - AI Agents for Distributed Computing',
-  description: 'Deploy autonomous AI agents on distributed infrastructure. Offload complex tasks to intelligent workers that run 24/7.',
+  title: 'Absolute Global Outsourcing | B2B Lead Generation',
+  description: 'Absolute Global Outsourcing helps brands generate demand, qualify high-intent leads, and accelerate growth with sales enablement solutions.',
   generator: 'v0.app',
 }
 
